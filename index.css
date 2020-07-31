@@ -1,0 +1,79 @@
+body{
+	font-family: 'Oswald', sans-serif;	
+}
+.main_image{
+	background: url(https://webneel.com/daily/sites/default/files/images/daily/08-2014/27-raksha-bandhan-images.preview.jpg);
+	height: 100vh;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	position: relative;
+}
+.main_wrapper{
+	color: purple;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.main_wrapper h1{
+
+	font-size: 3rem;
+	text-align: center;
+}
+.input_class
+{
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: 1rem;
+	border: none;
+	outline: none;
+}
+button{
+	width: 40%;
+	display: block;
+	border-radius: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: .5rem;
+	background-color: purple;
+	font-size: 2rem;
+	color: #006600;
+	border- none;
+	margin-top: 1rem;
+	outline: none;
+
+}
+/* Section 2*/
+
+.product{
+	width: 100%;
+	margin-top: .5rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.product_list{
+	float: left;
+	width: 25%;
+	height: 50%;
+}
+.product_list img{
+	height: 250px;
+	width: 250px;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+
+.animationdiv{
+
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
